@@ -1,0 +1,3 @@
+[submodule "packages/laravel-file-generator"]
+	path = packages/laravel-file-generator
+	url = https://github.com/ferdinandfrank/laravel-file-generator.git

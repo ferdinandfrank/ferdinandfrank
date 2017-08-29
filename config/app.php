@@ -144,7 +144,7 @@ return [
         Illuminate\Broadcasting\BroadcastServiceProvider::class,
         Illuminate\Bus\BusServiceProvider::class,
         Illuminate\Cache\CacheServiceProvider::class,
-        Illuminate\Foundation\Providers\ConsoleSupportServiceProvider::class,
+        FerdinandFrank\LaravelFileGenerator\Providers\ConsoleSupportServiceProvider::class,
         Illuminate\Cookie\CookieServiceProvider::class,
         Illuminate\Database\DatabaseServiceProvider::class,
         Illuminate\Encryption\EncryptionServiceProvider::class,
@@ -166,6 +166,7 @@ return [
         /*
          * Package Service Providers...
          */
+        \FerdinandFrank\LaravelFileGenerator\Providers\FileGeneratorServiceProvider::class,
 
         /*
          * Application Service Providers...
